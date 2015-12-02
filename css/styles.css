@@ -16,7 +16,7 @@
 body {
   font-size: 100%;
   font-family: 'Open Sans', sans-serif;
-  margin-top: 209px;
+  margin-top: 144px;
 }
 
 .container {
@@ -34,8 +34,8 @@ body {
 }
 
 .logo {
-  width: 14em;
-  padding: 2em 0 2em 0;
+  width: 12em;
+  padding: 2em 0 1.5em 0;
   display: block;
   margin: auto;
 }
@@ -43,14 +43,14 @@ body {
 nav {
   text-align: center;
   margin: 0;
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-weight: bold;
 }
 
 nav a {
-    text-decoration: none;
-    padding: 1.5em;
-    color: black;
+  text-decoration: none;
+  padding: 1.4em;
+  color: black;
 }
 
 hr {
@@ -65,7 +65,7 @@ hr {
 }
 
 .intro {
-  padding: 3em;
+  padding: 2em;
   float: left;
   width: 40%;
 }
@@ -73,7 +73,7 @@ hr {
 .text2 {
   float: left;
   width: 40%;
-  margin: 10em 0 0 2%;
+  margin: 8em 0 0 2%;
   padding: 1.5em;
   background-color: #E1E5E9;
 
@@ -89,6 +89,10 @@ hr {
   clear: left;
 }
 
+.whoWeAre {
+  clear: left;
+}
+
 #photo3 {
   width: 65%;
 }
@@ -101,13 +105,13 @@ hr {
 
 .text4 {
   float: right;
-  margin: 3em 10% 0 0;
+  margin: 5% 4% 0 0;
   padding: 3%;
   border: black 2.5px solid;
 }
 
 .styling {
-  padding-top: 3em;
+  padding-top: 2%;
 }
 
 .styles {
@@ -137,10 +141,12 @@ hr {
   margin: .5em;
   width: 23%;
   text-align: center;
+
 }
 
-ul {
+#photos {
   list-style-type: none;
+  text-align: center;
 }
 
 .social {
@@ -159,6 +165,7 @@ ul {
 @media screen and (max-width:480px){
   body {
     font-size: 0.9em;
+    margin-top: 215px;
   }
 
   .container {
@@ -234,4 +241,136 @@ ul {
     border: white solid 1px;
   }
 
+}
+
+@media screen and (max-width:680px){
+  body {
+    font-size: 0.8em;
+  }
+
+  nav a {
+    font-size: 0.9em;
+    padding: .3em;
+  }
+
+  #photo1, #photo2, #photo3 {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  .intro {
+    width: 100%;
+    height: auto;
+    padding: 1em;
+  }
+
+  .text2 {
+    width: 100%;
+    height: auto;
+    margin: 1%
+  }
+
+  .text3 {
+    width: 100%;
+    height: auto;
+    float: none;
+    padding: 5%;
+    display: block;
+  }
+
+  .styles {
+    width: 49%;
+    padding: 0;
+  }
+
+  .stylesB {
+    width: 32%;
+    padding: 0;
+  }
+
+  .text4 {
+    width: 90%;
+    padding: 5%;
+    margin: 5%;
+    float: none;
+  }
+
+  .box {
+    display: none;
+  }
+
+  .styling {
+    padding: 0;
+  }
+
+  .insta {
+  width: 46%;
+  }
+}
+
+@media screen and (min-width:681px) and (max-width:745px){
+  body {
+    font-size: 0.7em;
+  }
+
+  .intro, .text2, .text3, .text4 {
+    font-size: .8em;
+    padding-top: 0;
+    margin-top: 0;
+  }
+
+  #photo2 {
+    padding-top: 0;
+  }
+
+  #photo3 {
+    width: 100%;
+  }
+
+  .text3 {
+    width: 100%;
+  }
+
+  .text4 {
+    width: 45%;
+  }
+
+  hr {
+    width: 100%;
+  }
+
+  .insta {
+    width: 21%;
+  }
+
+  .box {
+    height: 200px;
+  }
+
+}
+
+@media screen and (min-width:746px) and (max-width:1024px){
+  body {
+    font-size: 0.9em;
+  }
+
+  .text2 {
+    margin: 2em 0;
+  }
+
+  p.text3 {
+    font-size: 0.9em;
+  }
+
+   .box {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width:1160px){
+  body {
+    font-size: 0.9em;
+  }
 }

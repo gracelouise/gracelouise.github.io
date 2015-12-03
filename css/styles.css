@@ -355,16 +355,37 @@ hr {
     font-size: 0.9em;
   }
 
-  .text2 {
-    margin: 2em 0;
+  .intro, .text2 {
+    font-size: .8em;
+    padding-top: 0;
+    margin-top: 2em;
   }
 
-  p.text3 {
-    font-size: 0.9em;
+  #photo2 {
+    padding-top: 1em;
   }
 
-   .box {
-    display: none;
+  .text3 {
+    font-size: .8em;
+    padding-top: 0;
+  }
+
+  #photo3 {
+    padding: 2em 0;
+  }
+
+  .text4 {
+    font-size: .8em;
+    width: 48%;
+    margin: 1%;
+  }
+
+  hr {
+    width: 100%;
+  }
+
+ .insta {
+    width: 21%;
   }
 
 }
